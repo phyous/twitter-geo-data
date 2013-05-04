@@ -17,6 +17,7 @@ Before you can get started, you'll need a developer account for Twitter.
 
 5- Let the script run and collect data
 > ./collect.rb
+
 If you want the task to run in the background, simply run:
 > ./collect.rb&
 
