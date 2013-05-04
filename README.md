@@ -18,14 +18,14 @@ Before you can get started, you'll need a developer account for Twitter.
 5- Let the script run and collect data
 > ./collect.rb
 
-If you want the task to run in the background, simply run:
+If you want the task to run in the background, simply do:
 > ./collect.rb&
 
 All collected data will be placed in data/geo-data.tsv. The logs will rotate every day automatically.
-The format of the logged data will be in tab separated format in the following way:
+Data will be logged as tab separated with the following format:
 created_at  tweet_id    tweet_language  tweet_country   lat lng
 
-Notes:
+Misc notes:
 * Only geo tagged tweets will be logged.
 * This script uses the sample stream, which only sees a very small fraction of tweets.
 * Not all tweets are annotated with a tweet_country
