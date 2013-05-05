@@ -37,4 +37,4 @@ Misc notes:
 * Not all tweets are annotated with a tweet_country. For those missing a country, code 'XX' will be used.
 * If Twitter isn't able to determine the language of a tweet, the language code will be 'und'
 
-[www.restlessprogrammer.com](https://www.restlessprogrammer.com)
+[www.restlessprogrammer.com](http://www.restlessprogrammer.com)
