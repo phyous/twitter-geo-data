@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'tweetstream'
-require 'httparty'
 require 'json'
 
 # Read the Twitter api credentials from twitter_credentials.json
